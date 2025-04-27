@@ -1,0 +1,431 @@
+[
+    {
+        "position": 1,
+        "rating": 4.5,
+        "reviews": 205,
+        "reviews_original": "(205)",
+        "description": "\"Affordable prices, quick service, and my clothes are always perfectly clean.\"",
+        "links": {
+            "website": "https://www.klin.com.np/",
+            "directions": "https://www.google.com.np/maps/dir//Klin+Laundromat,+P83M%2BH7R+The+New+Summit+School,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb19536acedff5:0xfc1ab18a32d2dd?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIBRAA&hl=en&gl=np"
+        },
+        "place_id": "70961043961205469",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=70961043961205469&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.704031,
+            "longitude": 85.33334
+        },
+        "title": "Klin Laundromat",
+        "type": "Laundry service",
+        "years_in_business": "5+ years in business",
+        "address": "Kathmandu",
+        "phone": "980-1028808",
+        "hours": "Open ⋅ Closes 9 PM"
+    },
+    {
+        "position": 2,
+        "rating": 4.0,
+        "reviews": 127,
+        "reviews_original": "(127)",
+        "description": "\"All my clothes came back clean and neatly folded.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P885%2B3GF+Clean+Wash+Laundry+Service,+Z+Street,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb18e34b2559a5:0x4a644ce631529bcc?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIFBAA&hl=en&gl=np"
+        },
+        "place_id": "5360494008031419340",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=5360494008031419340&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.715326,
+            "longitude": 85.30883
+        },
+        "title": "Clean Wash Laundry Service",
+        "type": "Laundry service",
+        "years_in_business": "7+ years in business",
+        "address": "Kathmandu",
+        "phone": "980-3155293",
+        "hours": "Open ⋅ Closes 9:30 PM"
+    },
+    {
+        "position": 3,
+        "rating": 4.8,
+        "reviews": 39,
+        "reviews_original": "(39)",
+        "description": "\"They saved my down jacket after my sister washed in wrong!!\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P886%2BXWG+Best+and+Fast+Laundry+Service,+ga+hiti+marga,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1900177b67a5:0xa7956cf656f5d5a6?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIBBAA&hl=en&gl=np"
+        },
+        "place_id": "12075677781140559270",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=12075677781140559270&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.717428,
+            "longitude": 85.31233
+        },
+        "title": "Best and Fast Laundry Service",
+        "type": "Laundry service",
+        "address": "Kathmandu",
+        "phone": "984-1657585",
+        "hours": "Open ⋅ Closes 8:30 PM"
+    },
+    {
+        "position": 4,
+        "rating": 3.7,
+        "reviews": 50,
+        "reviews_original": "(50)",
+        "description": "\"Service: Clothes were well folded, neatly packed, and smelled fantastic.\"",
+        "links": {
+            "website": "https://www.uclean.in/",
+            "directions": "https://www.google.com.np/maps/dir//UClean+Laundry,+Opposite+of+Hotel+Timberhouse,+Paknajol+Chhetrapati,+ward+no+16,+Kathmandu+Municipality+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1932d224b2a5:0x9b7b36e21d3defba?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIExAA&hl=en&gl=np"
+        },
+        "place_id": "11203608842795347898",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=11203608842795347898&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.712957,
+            "longitude": 85.30885
+        },
+        "title": "UClean Laundry",
+        "type": "Laundry service",
+        "years_in_business": "3+ years in business",
+        "address": "Kathmandu Municipality",
+        "phone": "984-6232072",
+        "hours": "Open ⋅ Closes 7 PM"
+    },
+    {
+        "position": 5,
+        "rating": 4.3,
+        "reviews": 26,
+        "reviews_original": "(26)",
+        "description": "\"And pricing was so reasonable.\"",
+        "links": {
+            "website": "https://www.facebook.com/profile.php?id=100063584561032&mibextid=ZbWKwL",
+            "directions": "https://www.google.com.np/maps/dir//Suryodaya+Dry+Cleaners,+Pashupati+Sadak,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb19752453154f:0x136f04146e53330b?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIEBAA&hl=en&gl=np"
+        },
+        "place_id": "1400342494932316939",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=1400342494932316939&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.708258,
+            "longitude": 85.3351
+        },
+        "title": "Suryodaya Dry Cleaners",
+        "type": "Laundry service",
+        "years_in_business": "35+ years in business",
+        "address": "Kathmandu",
+        "phone": "01-4529100",
+        "hours": "Open ⋅ Closes 7:30 PM"
+    },
+    {
+        "position": 6,
+        "rating": 3.0,
+        "reviews": 1,
+        "reviews_original": "(1)",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//NK+Laundry,+Kumari+Marg,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb192e2d5cf87b:0x153ca9544793150b?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIERAA&hl=en&gl=np"
+        },
+        "place_id": "1530284152842294539",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=1530284152842294539&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.707907,
+            "longitude": 85.32385
+        },
+        "title": "NK Laundry",
+        "type": "Laundry",
+        "years_in_business": "3+ years in business",
+        "address": "Kathmandu",
+        "phone": "985-1000207",
+        "hours": "Open ⋅ Closes 9 PM"
+    },
+    {
+        "position": 7,
+        "rating": 4.4,
+        "reviews": 209,
+        "reviews_original": "(209)",
+        "description": "\"Great service.. friendly people and clean clothes.\"",
+        "links": {
+            "website": "http://www.facebook.com/sajhalaundry",
+            "directions": "https://www.google.com.np/maps/dir//Sajha+Laundry,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb199dcfccc191:0xa7f9bf66816c9011?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIEhAA&hl=en&gl=np"
+        },
+        "place_id": "12103915920513863697",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=12103915920513863697&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.68367,
+            "longitude": 85.33289
+        },
+        "title": "Sajha Laundry",
+        "type": "Laundry service",
+        "years_in_business": "5+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-9821800",
+        "hours": "Open ⋅ Closes 9 PM"
+    },
+    {
+        "position": 8,
+        "rating": 4.9,
+        "reviews": 173,
+        "reviews_original": "(173)",
+        "description": "\"My clothes came back fresh, clean, and perfectly folded.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P977%2BXF9+Sathi+Express+Laundry,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1b67a1fa5bc9:0x655267ec24ed151?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIDxAA&hl=en&gl=np"
+        },
+        "place_id": "456313263115653457",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=456313263115653457&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.71495,
+            "longitude": 85.36371
+        },
+        "title": "Sathi Express Laundry",
+        "type": "Laundry service",
+        "address": "Kathmandu",
+        "phone": "01-5155066",
+        "hours": "Open ⋅ Closes 8 PM"
+    },
+    {
+        "position": 9,
+        "rating": 3.9,
+        "reviews": 19,
+        "reviews_original": "(19)",
+        "description": "\"Nice clothes wash.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//M8VH%2BQQF+Quick+Wash+Laundry,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1983796dc197:0x6ff64419ae6bd33a?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIDhAA&hl=en&gl=np"
+        },
+        "place_id": "8067710659571995450",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=8067710659571995450&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.694397,
+            "longitude": 85.3294
+        },
+        "title": "Quick Wash Laundry",
+        "type": "Laundry",
+        "years_in_business": "5+ years in business",
+        "address": "Kathmandu",
+        "phone": "981-8156212",
+        "hours": "Open ⋅ Closes 7:30 PM"
+    },
+    {
+        "position": 10,
+        "rating": 5.0,
+        "reviews": 5,
+        "reviews_original": "(5)",
+        "description": "\"Best place in Thamel for quick and easy laundry at a reasonable price.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P866%2BH7Q+2+Hours+Laundry,+kwabahal,+Wak+Bajra+Marg,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb190021118859:0x34b8551febc36fe1?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIDRAA&hl=en&gl=np"
+        },
+        "place_id": "3798879881274814433",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=3798879881274814433&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.711472,
+            "longitude": 85.31074
+        },
+        "title": "2 Hours Laundry",
+        "type": "Laundry service",
+        "address": "Kathmandu",
+        "phone": "984-1433121",
+        "hours": "Open ⋅ Closes 12 AM"
+    },
+    {
+        "position": 11,
+        "rating": 4.0,
+        "reviews": 24,
+        "reviews_original": "(24)",
+        "description": "\"Good price for the service!\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//laundry+service/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb19ebf9582e81:0x3ed7c8993f75f4f9?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIDBAA&hl=en&gl=np"
+        },
+        "place_id": "4528308510864569593",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=4528308510864569593&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.717165,
+            "longitude": 85.31025
+        },
+        "title": "laundry service",
+        "type": "Laundry",
+        "phone": "980-4177105",
+        "hours": "Open ⋅ Closes 7 PM"
+    },
+    {
+        "position": 12,
+        "rating": 4.6,
+        "reviews": 31,
+        "reviews_original": "(31)",
+        "description": "\"Fast pickup and delivery service.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//E+Laundry,+Sudidhanagar+Marg+434%2F90,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1971d2672027:0x3ffff3c7c79e90f?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQICxAA&hl=en&gl=np"
+        },
+        "place_id": "288229536426486031",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=288229536426486031&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.68404,
+            "longitude": 85.34518
+        },
+        "title": "E Laundry",
+        "type": "Laundry",
+        "years_in_business": "5+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-9075298",
+        "hours": "Open ⋅ Closes 3 PM"
+    },
+    {
+        "position": 13,
+        "rating": 4.4,
+        "reviews": 25,
+        "reviews_original": "(25)",
+        "description": "\"Excellent service & cleaned clothes!\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//Clean+Dry+Cleaners,+Paknajol+Marg+16,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb192c264be0b3:0xf8b0ea5a4bbcd9e?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIAxAA&hl=en&gl=np"
+        },
+        "place_id": "1120005036927864222",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=1120005036927864222&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.718176,
+            "longitude": 85.30975
+        },
+        "title": "Clean Dry Cleaners",
+        "type": "Laundromat",
+        "address": "Kathmandu",
+        "phone": "982-3405713",
+        "hours": "Open ⋅ Closes 8 PM"
+    },
+    {
+        "position": 14,
+        "rating": 3.0,
+        "reviews": 2,
+        "reviews_original": "(2)",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P83F%2BX73+SMART+DRY+CLEANERS,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1980943766fd:0x22d5dd33cdd2cca3?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQICRAA&hl=en&gl=np"
+        },
+        "place_id": "2510155581895134371",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=2510155581895134371&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.70489,
+            "longitude": 85.3232
+        },
+        "title": "SMART DRY CLEANERS",
+        "type": "Laundry service",
+        "years_in_business": "25+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-1915314",
+        "hours": "Open ⋅ Closes 7 PM"
+    },
+    {
+        "position": 15,
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P86C%2BCV9+Band+Box+Dry+Cleaners,+Hattisar+Rd,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb190006b4ccad:0xdf96731d640c65b1?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIFRAA&hl=en&gl=np"
+        },
+        "place_id": "16111191287034308017",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=16111191287034308017&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.711046,
+            "longitude": 85.32224
+        },
+        "title": "Band Box Dry Cleaners",
+        "reviews_original": "No reviews",
+        "type": "Laundry service",
+        "address": "Kathmandu",
+        "phone": "01-4539988",
+        "hours": "Open ⋅ Closes 7 PM"
+    },
+    {
+        "position": 16,
+        "rating": 4.5,
+        "reviews": 20,
+        "reviews_original": "(20)",
+        "description": "\"Reliable and reasonable cost always recommended\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P983%2B3XG+Laundry+Mart+Nepal,+Tusal+Marg,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb1bd629dd4f89:0x1d5a003b09abc134?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIAhAA&hl=en&gl=np"
+        },
+        "place_id": "2115003228569190708",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=2115003228569190708&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.715197,
+            "longitude": 85.35489
+        },
+        "title": "Laundry Mart Nepal",
+        "type": "Laundry service",
+        "years_in_business": "7+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-1354864",
+        "hours": "Open ⋅ Closes 8 PM"
+    },
+    {
+        "position": 17,
+        "rating": 3.8,
+        "reviews": 21,
+        "reviews_original": "(21)",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P8C7%2BJ62+BRIGHT+BOX+DRY+CLEANERS,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb18e20d9d6139:0x149669cc9a53cc26?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIChAA&hl=en&gl=np"
+        },
+        "place_id": "1483489454748584998",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=1483489454748584998&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.721518,
+            "longitude": 85.31301
+        },
+        "title": "BRIGHT BOX DRY CLEANERS",
+        "type": "Laundry service",
+        "years_in_business": "10+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-1319356",
+        "hours": "Open ⋅ Closes 8 PM"
+    },
+    {
+        "position": 18,
+        "rating": 2.0,
+        "reviews": 1,
+        "reviews_original": "(1)",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P85F%2BCF6+Early+Bird+Dry+Cleaners,+Dhobidhara+Marg,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb19062b5f3bf3:0x325ef02bae438954?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQICBAA&hl=en&gl=np"
+        },
+        "place_id": "3629602420105120084",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=3629602420105120084&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.708532,
+            "longitude": 85.32363
+        },
+        "title": "Early Bird Dry Cleaners",
+        "type": "Dry cleaner",
+        "years_in_business": "10+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-1504087",
+        "hours": "Open ⋅ Closes 8 PM"
+    },
+    {
+        "position": 19,
+        "rating": 4.3,
+        "reviews": 8,
+        "reviews_original": "(8)",
+        "description": "\"Had a great experience today, had a 4hr turn around for 200 npr a kilo.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//P834%2B3V8+8+-+8+Laundry+Service,+Freak+St,+Kathmandu+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb185666e50321:0x6d1ab47251fcd1c4?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIBxAA&hl=en&gl=np"
+        },
+        "place_id": "7861794502623416772",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=7861794502623416772&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.702572,
+            "longitude": 85.30732
+        },
+        "title": "8 - 8 Laundry Service",
+        "type": "Laundry service",
+        "years_in_business": "15+ years in business",
+        "address": "Kathmandu",
+        "phone": "984-1675594",
+        "hours": "Open ⋅ Closes 7:30 PM"
+    },
+    {
+        "position": 20,
+        "rating": 4.3,
+        "reviews": 24,
+        "reviews_original": "(24)",
+        "description": "\"My clothes were cleaned and returned the same day—fresh and spotless.\"",
+        "links": {
+            "directions": "https://www.google.com.np/maps/dir//Laundry+Ghar,+UN+Park+Lane,+Lalitpur+44600/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x39eb19c0f5178bf5:0xcf6fc25859775c72?sa=X&ved=2ahUKEwjb6_Kk5OWMAxWntokEHScAMd8Q48ADegQIBhAA&hl=en&gl=np"
+        },
+        "place_id": "14947379372979870834",
+        "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=np&google_domain=google.com.np&hl=en&location=Kathmandu%2C+Nepal&ludocid=14947379372979870834&q=laundry",
+        "gps_coordinates": {
+            "latitude": 27.685114,
+            "longitude": 85.325226
+        },
+        "title": "Laundry Ghar",
+        "type": "Laundry service",
+        "address": "Lalitpur",
+        "phone": "985-1166068",
+        "hours": "Open ⋅ Closes 7 PM"
+    }
+]
