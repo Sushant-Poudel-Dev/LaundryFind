@@ -58,7 +58,7 @@ const SearchBar = ({
         <input
           type='text'
           placeholder={placeholder}
-          className={`p-1 px-4 rounded-md border-gray-300 shadow-sm border hover:shadow-md w-96 ${className}`}
+          className={`p-1 px-4 rounded-md border-gray-300 shadow-sm border w-96 ${className}`}
           value={query}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}

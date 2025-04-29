@@ -75,7 +75,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className='bg-primary text-secondary flex justify-between items-center p-1 px-4'>
+      <div className='bg-primary text-secondary flex justify-between items-center p-1 px-6'>
         <div>
           <h2>Stay Clean Every Time</h2>
         </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
           <h2>071-445445 | Kathmandu</h2>
         </div>
       </div>
-      <div className='flex justify-between items-center p-4'>
+      <div className='px-6 flex justify-between items-center p-4'>
         <div>
           <a
             href='/'
@@ -106,14 +106,14 @@ const Navbar = () => {
             />
             <Button
               text={"Search"}
-              className='ml-2'
+              className='ml-0'
               onClick={() => handleSearch(searchQuery)}
             />
           </div>
         ) : null}
         <div className='flex gap-4'>
           <Button
-            className='hover:bg-primary hover:text-white bg-slate-50 text-slate-900 border-slate-900 border-2 '
+            className='bg-slate-50 text-slate-900 border-2 '
             text={"Sign in"}
           />
           <Button text={"Register"} />

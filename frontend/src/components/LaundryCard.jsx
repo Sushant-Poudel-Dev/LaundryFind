@@ -2,6 +2,7 @@ import Button from "./Button";
 import HomeHeroImage from "../media/HomeHeroImage.jpg";
 import { TiTick } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
+import { use, useEffect } from "react";
 
 const LaundryCard = ({ data }) => {
   const navigate = useNavigate();
@@ -15,13 +16,38 @@ const LaundryCard = ({ data }) => {
     navigate(`/store/${data.id}`);
   };
 
+  const getFirstDigitOfEveryWord = (title) => {
+    const words = title.split(" ");
+    const firstDigits = words.map((word) => word.charAt(0)).join("");
+    return firstDigits.toUpperCase();
+  };
+
+  const getRandomColor = () => {
+    const letters = "0123456789ABCDEF";
+    let color = "";
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
+
+  console.log(getRandomColor());
+
   return (
     <>
       <div className='bg-white p-4 relative'>
         <img
-          src={data.thumbnail || HomeHeroImage}
+          src={
+            // data.thumbnail ||
+            `https://placehold.co/300x200/${getRandomColor()}/FFFFFF?text=${getFirstDigitOfEveryWord(
+              data.name
+            )}`
+          }
           alt={data.name}
           className='w-full h-44 object-cover rounded-md mb-4'
+          onError={(e) => {
+            e.target.onerror = null;
+          }}
         />
         <h2 className='flex items-center text-xl font-semibold'>
           {data.name}
