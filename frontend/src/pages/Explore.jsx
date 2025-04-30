@@ -391,9 +391,9 @@ const Explore = () => {
       return (
         <div
           key={city}
-          className='mb-12'
+          className='mb-12 mt-5'
         >
-          <div className='flex justify-between items-center mb-2 ml-2'>
+          <div className='mx-4 flex justify-between items-center mb-2 ml-2'>
             <div>
               <h1 className='text-4xl font-bold'>
                 {isUserCity ? `${city}` : `${city}`}

@@ -20,6 +20,8 @@ const StoreDetails = () => {
     colorSensitive: 0,
   });
   const [specialInstructions, setSpecialInstructions] = useState("");
+  const [serviceType, setServiceType] = useState("both"); // Default to both
+  const [includeLocation, setIncludeLocation] = useState(false); // State for sharing location preference
 
   // Debug the ID
   console.log("Store ID from URL params:", id);
@@ -65,31 +67,48 @@ const StoreDetails = () => {
   // Generate WhatsApp message with clothing details
   const generateWhatsAppLink = () => {
     // Create a message with clothing details
-    let message = "Hi, I'm interested in your laundry services. ";
+    let message = `Hi, I'm interested in laundry services from ${store.name}.\n\n`;
+
+    // Add demo customer name and location
+    message += `Name: Demo Customer\n`;
+    message += `Location: Demo Location\n\n`;
 
     // Add clothing details if any are selected
     const clothingItems = [];
     if (clothingSelection.regular > 0)
-      clothingItems.push(`${clothingSelection.regular} regular items`);
+      clothingItems.push(`• ${clothingSelection.regular} regular items`);
     if (clothingSelection.heavy > 0)
-      clothingItems.push(`${clothingSelection.heavy} heavy items`);
+      clothingItems.push(`• ${clothingSelection.heavy} heavy items`);
     if (clothingSelection.dryClean > 0)
-      clothingItems.push(`${clothingSelection.dryClean} dry clean items`);
+      clothingItems.push(`• ${clothingSelection.dryClean} dry clean items`);
     if (clothingSelection.colorSensitive > 0)
       clothingItems.push(
-        `${clothingSelection.colorSensitive} color-sensitive items`
+        `• ${clothingSelection.colorSensitive} color-sensitive items`
       );
 
     if (clothingItems.length > 0) {
-      message +=
-        "I would like to have the following cleaned: " +
-        clothingItems.join(", ") +
-        ". ";
+      message += "Items for laundry:\n" + clothingItems.join("\n") + "\n\n";
     }
+
+    // Add service type with proper text based on selection
+    message += `Service Type: ${
+      serviceType === "pickup"
+        ? "Pickup Only"
+        : serviceType === "delivery"
+        ? "Delivery Only"
+        : "Both Pickup and Delivery"
+    }\n\n`;
 
     // Add special instructions if provided
     if (specialInstructions.trim()) {
-      message += `Special instructions: ${specialInstructions}`;
+      message += `Special instructions:\n${specialInstructions}\n\n`;
+    }
+
+    // Add Google Maps location if allowed
+    if (includeLocation) {
+      message += `Google Maps Location: https://maps.google.com/maps?q=${
+        store.location?.latitude || 0
+      },${store.location?.longitude || 0}\n\n`;
     }
 
     // Use a specific phone number for messaging
@@ -414,7 +433,7 @@ const StoreDetails = () => {
                     className='w-4 h-4 mr-1'
                     fill='none'
                     stroke='currentColor'
-                    viewBox='0 0 24 24'
+                    viewBox='0 0 20 20'
                     xmlns='http://www.w3.org/2000/svg'
                   >
                     <path
@@ -545,6 +564,34 @@ const StoreDetails = () => {
                   </div>
                 </div>
 
+                {/* Service Type Selection */}
+                <div className='mt-2'>
+                  <label className='text-sm font-medium text-gray-700 mb-1 flex items-center'>
+                    <svg
+                      className='w-4 h-4 mr-1 text-gray-500'
+                      fill='currentColor'
+                      viewBox='0 0 20 20'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        fillRule='evenodd'
+                        d='M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 00.293.707l2 2a1 1 0 101.414-1.414L11 9.586V7z'
+                        clipRule='evenodd'
+                      />
+                    </svg>
+                    Service Type
+                  </label>
+                  <select
+                    value={serviceType}
+                    onChange={(e) => setServiceType(e.target.value)}
+                    className='p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-sm'
+                  >
+                    <option value='pickup'>Pickup Only</option>
+                    <option value='delivery'>Delivery Only</option>
+                    <option value='both'>Both Pickup and Delivery</option>
+                  </select>
+                </div>
+
                 {/* Special Instructions */}
                 <div className='mt-2'>
                   <label className='text-sm font-medium text-gray-700 mb-1 flex items-center'>
@@ -569,6 +616,35 @@ const StoreDetails = () => {
                     placeholder='Any specific requirements or notes...'
                     className='p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-sm'
                   />
+                </div>
+
+                {/* Include Location Checkbox */}
+                <div className='mt-4 flex items-center'>
+                  <input
+                    id='include-location'
+                    type='checkbox'
+                    checked={includeLocation}
+                    onChange={(e) => setIncludeLocation(e.target.checked)}
+                    className='h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500'
+                  />
+                  <label
+                    htmlFor='include-location'
+                    className='ml-2 text-sm text-gray-700 flex items-center'
+                  >
+                    <svg
+                      className='w-4 h-4 mr-1 text-red-500'
+                      fill='currentColor'
+                      viewBox='0 0 20 20'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        fillRule='evenodd'
+                        d='M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z'
+                        clipRule='evenodd'
+                      />
+                    </svg>
+                    Include Google Maps location in message
+                  </label>
                 </div>
 
                 {/* Total Items Summary */}
@@ -641,7 +717,7 @@ const StoreDetails = () => {
                     xmlns='http://www.w3.org/2000/svg'
                   >
                     <path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z' />
-                    <path d='M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z' />
+                    <path d='M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10-4.477 10-10-4.477 10-10 10z' />
                   </svg>
                   Send Request on WhatsApp
                 </a>

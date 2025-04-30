@@ -70,7 +70,7 @@ const SearchBar = ({
       {showSuggestions && (
         <div
           ref={suggestionRef}
-          className='absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-y-auto'
+          className='absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-80 overflow-y-auto'
         >
           {loading ? (
             <div className='p-3 text-gray-500'>Loading...</div>
@@ -79,13 +79,17 @@ const SearchBar = ({
               {suggestions.map((suggestion, index) => (
                 <li
                   key={index}
-                  className='px-4 py-2 hover:bg-gray-100 cursor-pointer'
+                  className='px-4 py-3 hover:bg-gray-100 cursor-pointer'
                   onClick={() => handleSuggestionClick(suggestion)}
                 >
-                  <div className='font-medium'>{suggestion.name}</div>
+                  <div className='font-medium'>
+                    <h3 className='text-blue-900'>{suggestion.name}</h3>
+                  </div>
                   {suggestion.location?.address && (
                     <div className='text-sm text-gray-600'>
-                      {suggestion.location.address}
+                      <p className='text-gray-500'>
+                        {suggestion.location.address}
+                      </p>
                     </div>
                   )}
                 </li>
